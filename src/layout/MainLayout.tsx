@@ -5,7 +5,7 @@ type MainLayoutProps = {
   children: ReactNode;
 };
 
-const MainLayout = ({ children }: MainLayoutProps) => {
+const MainLayout = ({ children }: MainLayoutProps): React.JSX.Element => {
   return (
     <div className="main-container">
       <Navigator />

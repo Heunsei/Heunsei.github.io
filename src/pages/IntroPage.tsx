@@ -1,7 +1,7 @@
 import React from "react";
 
-const IntroPage = () => {
-  return <div className="main-contianer">gdgd</div>;
+const IntroPage = (): React.JSX.Element => {
+  return <div className="child-container">gdgd</div>;
 };
 
 export default IntroPage;
